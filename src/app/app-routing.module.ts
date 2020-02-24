@@ -14,9 +14,7 @@ import { UserEditComponent }   from './user-edit/user-edit.component';
 
 // 3. Declare your routes
 const routes: Routes = [
-  // 4. The default route
   { path: '', redirectTo: '/users', pathMatch: 'full' },
-  // 5. Map /users to the UsersComponent
   { path: 'users', component: UsersComponent },
   { path: 'users/view/:id', component: UserViewComponent },
   { path: 'users/create', component: UserCreateComponent },
